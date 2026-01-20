@@ -11,10 +11,37 @@
 ```
 
 Welcome! This repository documents my C++ learning journey, showcasing programs I've built from basic "Hello World" to more complex algorithms and pattern-based solutions. Each program represents a step forward in mastering C++.
+### Day 1 Topics:
+- **Basics**: Hello World, simple input/output
+- **Functions**: Using functions to organize code
+- **Mathematical Operations**: Calculations and conversions
+- **Pattern Printing**: ASCII art and visual patterns
+- **String & Character Operations**: Working with text and characters
+- **Real-world Applications**: Practical problem solving
+---
+
+## � Day 2: Vectors & Searching
+
+```
+╔════════════════════════════════════════════════════════╗
+║       Mastering Collections and Search Strategies      ║
+║                                                        ║
+║  "The master has failed more times than the novice     ║
+║   has even tried. Persistence is the key to growth."   ║
+╚════════════════════════════════════════════════════════╝
+```
+
+Day 2 focuses on working with vectors (dynamic arrays) and implementing various searching algorithms. Understanding how to efficiently search through data collections is a crucial skill in computer science.
+
+### Day 2 Topics:
+- **Vectors**: Working with dynamic collections in C++
+- **Linear Search**: Sequential searching through data
+- **Binary Search**: Efficient searching in sorted data
+- **Jump Search**: Optimized searching technique
 
 ---
 
-## 📚 Learning Path Overview
+## �📚 Learning Path Overview
 
 ### 🌱 **Level 1: Beginner Basics**
 Getting started with C++ fundamentals
@@ -70,6 +97,13 @@ Mastering repetition and complex structures
 - [Profit Loss](#profit-loss) - Profit/loss calculation
 - [Swap](#swap) - Swap variables/values
 - [Series](#series) - Series calculations
+
+### Vectors & Collections (Day 2)
+- [Vectors](#vectors) - Dynamic array operations
+- [Linear Search](#linear-search) - Sequential searching
+- [Binary Search](#binary-search) - Efficient searching in sorted arrays
+- [Jump Search](#jump-search) - Optimized searching technique
+- [Looping in Vector](#looping-in-vector) - Vector iteration and operations
 
 ---
 
@@ -177,6 +211,53 @@ Mastering repetition and complex structures
 **Files:** `patterns/pattern[N]/pattern[N].cpp`
 - **Description:** Various pattern printing programs
 - **Features:** Generate ASCII art patterns of different designs
+
+---
+
+## Day 2 Programs: Vectors & Searching Algorithms
+
+### Vectors
+**File:** `vectors/VECTORS.cpp`
+- **Description:** Working with C++ vectors (dynamic arrays)
+- **Features:** Demonstrates vector creation, insertion, and manipulation
+- **Concepts:** STL containers, dynamic memory management
+
+### Linear Search
+**File:** `searching/linearsearch/linearsearch.cpp`
+- **Description:** Sequential search through a collection
+- **Features:** Searches for an element by checking each element sequentially
+- **Time Complexity:** O(n)
+- **Use Case:** Works on both sorted and unsorted arrays
+
+### Binary Search
+**File:** `searching/binary search/binarysearch.cpp`
+- **Description:** Efficient searching in sorted arrays
+- **Features:** Divides search space in half with each iteration
+- **Time Complexity:** O(log n)
+- **Prerequisite:** Array must be sorted
+- **Advantage:** Much faster than linear search for large datasets
+
+### Jump Search
+**File:** `searching/jump search/jump search.cpp`
+- **Description:** Optimized searching technique combining jumping and linear search
+- **Features:** Jumps ahead by fixed intervals, then does linear search
+- **Time Complexity:** O(√n)
+- **Use Case:** Balance between linear and binary search efficiency
+
+### Looping in Vector
+**File:** `looping in vector/looping/looping.cpp`
+- **Description:** Various methods of iterating through vectors
+- **Features:** Different loop techniques and vector operations
+
+#### Last Occurrence
+**File:** `looping in vector/last occurance/last_occurance.cpp`
+- **Description:** Find the last occurrence of an element in a vector
+- **Features:** Searches from end to find last matching element
+
+#### Number of Occurrences
+**File:** `looping in vector/number of occurance/number of occurance.cpp`
+- **Description:** Count how many times an element appears in a vector
+- **Features:** Iterates through vector and counts matching elements
 
 ---
 
